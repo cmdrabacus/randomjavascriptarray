@@ -7,12 +7,20 @@
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<div id="generatediv">
-		<button type="button" id="genbutton" onclick="GetValue();">Langeweile?</button>
+	<div class="container">
+		<div class="row header">
+			<h1>Langeweile?</h1>
+			<h3>
+				<span id="message">Das hat nun ein Ende...</span>
+			</h3>
+		</div>
+		<div class="row body">
+			<center>
+				<button type="button" id="genbutton" onclick="GetValue();">Drück
+					mich</button>
+			</center>
+		</div>
 	</div>
-	<div id="messagediv">
-		<p id="message"></p>
-	</div>
-	<script src="js/index.js" type="text/javascript"></script>
+	<script src="js/index.js"></script>
 </body>
 </html>
